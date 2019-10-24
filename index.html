@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Triangle Tracker</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+      <form id="triangleForm">
+        <div class="form-group">
+          <label for="num1">Number1</label>
+          <input type="number" id="num1">
+        </div>
+        <div class="form-group">
+          <label for="num2">Number2</label>
+          <input type="number" id="num2">
+        </div>
+        <div class="form-group">
+          <label for="num3">Number3</label>
+          <input type="number" id="num3">
+        </div>
+        <button type="submit" class="btn btn-success">Track</button>
+      </form>
+      <div class="result">
+        <h2 id="equilateral">Your triangle is equilateral.</h2>
+        <h2 id="isosceles">Your triangle is isosceles.</h2>
+        <h2 id="scalene">Your triangle is scalene.</h2>
+        <h2 id="not">It is not a triangle.</h2>
+      </div>
+
+    </div>
+  </body>
+</html>
